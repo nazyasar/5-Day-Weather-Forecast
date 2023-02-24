@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="logo">
+        <img src="./assets/images/weather-forecast-logo.jpg">
+    </div>
+    <div class="headerTitle"></div>
+        <h1 class="text-center" id="title">Weather Forecast Dashboard</h1>
+        <p class="text-center" id="titleNote">Search the city you want, find the weather forecast for next 5 days! </p>
+    </div>
+
+    <main>
+        <div class="d-flex flex-row">
+            <div class=" p-4 col-md-3">
+                <div class="d-flex flex-column border-bottom">
+                    <h2>Search for a City:</h2>
+                    <input class="my-2" type="text" placeholder="Find your city" id="search-value">
+                    <button class=" btn btn-success my-2" id="search">Search</button>
+                </div>
+                <div>
+                    <div class="d-flex flex-column my-4" id="saved-searches"></div>
+                </div>
+            </div>
+
+            <div class="p-4 col-md-8">
+                <div class="p-2 border border-dark">
+                    <h3 id="city-name">Current Weather: </h3>
+
+                    <div id="currentWeather"></div>
+                </div>
+
+                <div>
+                    <h3>5-Day Forecast:</h3>
+
+                    <div class="d-flex flex-row  justify-content-between" id="fiveDay">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy Georgia Tech Bootcamp 2023</p>
+        <p>This website is created by Naz Yasar😊</p>
+      </footer>
+</body>
+<script src="./assets/script.js"></script>
+</html>
