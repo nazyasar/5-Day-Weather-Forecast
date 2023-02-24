@@ -12,9 +12,8 @@ Get the current weather conditions, including temperature, humidity, and wind sp
 - HTML, CSS, JavaScript
 - OpenWeatherMap API
 - Google Fonts
-- Unsplash Stock Images
+=
+**Deployed page** -> 
 
-**Deployed page** -> https://nazyasar.github.io/weather-check/
 
-<img width="959" alt="image" src="https://user-images.githubusercontent.com/55256787/214987551-10b9180e-7f17-4c10-9e7d-c66a31ef70ec.png">
 
