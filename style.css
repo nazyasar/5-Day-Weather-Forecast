@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(161,241,254);
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.card {
+  background-color: rgb(2,33,90);
+  color: white;
+  padding: 3px;
+}
+
+#header {
+  background-color:rgb(2,33,90);
+
+}
+#title {
+  font-size: 64px;
+  color:rgb(178, 219, 253)
+}
+
+#titleNote {
+  font-weight: bold;
+  font-size: 32px;
+  color: rgb(161,241,254);
+}
+
+img {
+  width: 245px;
+}
+
+.logo{
+  height: auto;
+  width: auto;
+  float: left;
+}
+.headerTitle{
+  height: auto;
+  width: auto; 
+  float: left; 
+}
+
+footer {
+   bottom: 20px;;
+   width:100%;
+   height:60px;
+   text-align: center;
+   font-weight: bold;
+}
