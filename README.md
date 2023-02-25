@@ -15,8 +15,11 @@ Get the current weather conditions, including temperature, humidity, and wind sp
 
 **Deployed page** -> https://nazyasar.github.io/5-Day-Weather-Forecast/
 
-### Website Screenshot
+### Website Screenshots
 
 ![image](https://user-images.githubusercontent.com/55256787/221330577-cd5df5c2-ccf1-41f1-8d6a-5444127b2297.png)
+
+![image](https://user-images.githubusercontent.com/55256787/221330649-78181151-8070-419c-b9c6-3566c1ee063a.png)
+
 
 
