@@ -22,15 +22,19 @@ ul {
   color:rgb(178, 219, 253)
 }
 
+#logo {
+  width: 150px;
+  height: 130px;
+}
+
 #titleNote {
   font-weight: bold;
   font-size: 32px;
   color: rgb(161,241,254);
 }
 
-img {
-  width: 150px;
-  height: 130px;
+#currentWeather {
+  text-align: center;
 }
 
 .logo{
@@ -38,6 +42,7 @@ img {
   width: auto;
   float: left;
 }
+
 .headerTitle{
   height: auto;
   width: auto; 
@@ -50,4 +55,18 @@ footer {
    height:60px;
    text-align: center;
    font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.border {
+  border-radius: 40px;
 }
